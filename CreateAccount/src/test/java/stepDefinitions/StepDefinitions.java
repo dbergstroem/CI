@@ -75,7 +75,6 @@ public class StepDefinitions {
 				driver.findElement(By.id("create-account")).click();
 			  }
 
-	
 		@Then("I {string} the result")
 		public void i_the_result(String control) {
 			if (control.equals("Check your email")) {
